@@ -4,10 +4,10 @@ from utils import RGA
 
 
 # The following code performs Example 3.12 of Skogestad.
-# Here the RGA, iterative RGA, condition number and minimized
+# Here the RGA, iterative RGA, condition number and minimized.
 # condition number is calculated for constant transfer function G.
 # The minimized coondition number is not implemented.
-# Examples 3.13-15 are all similar
+# Examples 3.13-15 are all similar.
 
 def condnum(A):
     gamma = A[0]/A[-1]
